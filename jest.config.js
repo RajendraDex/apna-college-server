@@ -1,17 +1,3 @@
-// /** @type {import('ts-jest').JestConfigWithTsJest} */
-// module.exports = {
-//   preset: 'ts-jest',
-//   testEnvironment: 'node',
-//   testEnvironmentOptions: {
-//     NODE_ENV: 'test',
-//   },
-//   roots: ['<rootDir>/src', '<rootDir>/__tests__'],
-//   testMatch: ['**/__tests__/**/*.test.ts'], // More specific pattern for test files
-//   restoreMocks: true,
-//   coveragePathIgnorePatterns: ['node_modules', 'src/config', 'src/app.js', 'tests'],
-//   coverageReporters: ['text', 'lcov', 'clover', 'html'],
-// };
-
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
   preset: 'ts-jest',
